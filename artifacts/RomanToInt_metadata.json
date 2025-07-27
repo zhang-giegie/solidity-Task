@@ -8,22 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "arr",
-						"type": "uint256[]"
-					},
-					{
-						"internalType": "uint256",
-						"name": "target",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
 					}
 				],
-				"name": "binarySearch",
+				"name": "romanToInt",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -43,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task1/BinarySearch.sol": "BinarySearch"
+			"task1/RomanToInt.sol": "RomanToInt"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"task1/BinarySearch.sol": {
-			"keccak256": "0x4a9e308847005a601d84bd5e8570a512d23d3ceca577d29b48f06f73c6b18b39",
+		"task1/RomanToInt.sol": {
+			"keccak256": "0x08777cd8b9033ce67816a2b0d21daf12f9df1015fa6a5a9ad1e3c7cb5070fd6e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://771e8009af8278c00c97e4cb5e015a8c5c2e8b04d642b04161d083d3b77cf59e",
-				"dweb:/ipfs/QmSQNXksBR6e4dMGGtjf3RS8Jif8MysREWWu2KVgUc4pwJ"
+				"bzz-raw://6c70a35543d5994105707fbdb4ac72a654830ce0cd37d1fc858ceacde3058877",
+				"dweb:/ipfs/QmWcApxbGp5bQsJC5ADS792ZaR6AUF7QtDDKeLitmrEPYQ"
 			]
 		}
 	},

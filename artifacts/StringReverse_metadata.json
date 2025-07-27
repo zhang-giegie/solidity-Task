@@ -8,22 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "arr",
-						"type": "uint256[]"
-					},
-					{
-						"internalType": "uint256",
-						"name": "target",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
 					}
 				],
-				"name": "binarySearch",
+				"name": "reverse",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "string",
 						"name": "",
-						"type": "int256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -43,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"task1/BinarySearch.sol": "BinarySearch"
+			"task1/StringReverse.sol": "StringReverse"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"task1/BinarySearch.sol": {
-			"keccak256": "0x4a9e308847005a601d84bd5e8570a512d23d3ceca577d29b48f06f73c6b18b39",
+		"task1/StringReverse.sol": {
+			"keccak256": "0xf933fbbe74a635cda06fc7584a59b24a6f1ce74494b1c0803dd4f6e2cab7d896",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://771e8009af8278c00c97e4cb5e015a8c5c2e8b04d642b04161d083d3b77cf59e",
-				"dweb:/ipfs/QmSQNXksBR6e4dMGGtjf3RS8Jif8MysREWWu2KVgUc4pwJ"
+				"bzz-raw://61dc769563efe4717d2c41cf820f5bce2885d27f1f2eec40ac87e0f36c59fa95",
+				"dweb:/ipfs/QmWceFgG2XYKpGxPdTU3ZnVXJCBHo3GBwKzjR9TuwVAEkp"
 			]
 		}
 	},
